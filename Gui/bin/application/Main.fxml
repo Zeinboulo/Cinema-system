@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="744.0" style="-fx-background-color: #555555; -fx-border-color: #8B0000; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.scene_controller">
+   <children>
+      <Button layoutX="77.0" layoutY="409.0" mnemonicParsing="false" onAction="#switch_to_scene1" prefHeight="31.0" prefWidth="91.0" style="-fx-background-color: black; -fx-border-color: gray;" text="FILM 1" textFill="WHITE" />
+      <Button layoutX="294.0" layoutY="409.0" mnemonicParsing="false" onAction="#switch_to_scene2" prefHeight="31.0" prefWidth="91.0" style="-fx-background-color: black; -fx-border-color: gray;" text="FILM 2" textFill="WHITE" />
+      <Label layoutX="294.0" layoutY="71.0" prefHeight="31.0" prefWidth="146.0" text="Main menu" textAlignment="CENTER" textFill="#ebe7c0">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font></Label>
+      <Button layoutX="534.0" layoutY="409.0" mnemonicParsing="false" onAction="#switch_to_scene3" prefHeight="31.0" prefWidth="91.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Film 3" textFill="WHITE" />
+      <ImageView fx:id="image1" fitHeight="254.0" fitWidth="200.0" layoutX="38.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/pngwing.com.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="image2" fitHeight="264.0" fitWidth="185.0" layoutX="247.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/image-from-rawpixel-id-9975454-original.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="image3" fitHeight="254.0" fitWidth="250.0" layoutX="454.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/pngwing.com%20(1).png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

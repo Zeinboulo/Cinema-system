@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="892.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.scene_controller">
+   <children>
+      <Button fx:id="main" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switch_to_Main" prefHeight="25.0" prefWidth="55.0" text="Main Menu" />
+      <Label layoutX="337.0" layoutY="39.0" prefHeight="26.0" prefWidth="193.0" text="Film 3:Choose your seat ">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Button fx:id="t102" layoutX="301.0" layoutY="117.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 2" textFill="WHITE" />
+      <Button fx:id="t145" layoutX="535.0" layoutY="464.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 45" textFill="WHITE" />
+      <Button fx:id="t111" layoutX="221.0" layoutY="199.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 11" textFill="WHITE" />
+      <Button fx:id="t149" layoutX="453.0" layoutY="501.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 49" textFill="WHITE" />
+      <Button fx:id="t150" layoutX="535.0" layoutY="501.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 50" textFill="WHITE" />
+      <Button fx:id="t147" layoutX="301.0" layoutY="501.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 47" textFill="WHITE" />
+      <Button fx:id="t146" layoutX="221.0" layoutY="501.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 46" textFill="WHITE" />
+      <Button fx:id="t148" layoutX="382.0" layoutY="501.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 48" textFill="WHITE" />
+      <Button fx:id="t110" layoutX="535.0" layoutY="158.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 10" textFill="WHITE" />
+      <Button fx:id="t120" layoutX="535.0" layoutY="247.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 20" textFill="WHITE" />
+      <Button fx:id="t140" layoutX="535.0" layoutY="422.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 40" textFill="WHITE" />
+      <Button fx:id="t109" layoutX="453.0" layoutY="158.0" mnemonicParsing="false" onAction="#show_alert" prefHeight="25.0" prefWidth="48.0" style="-fx-background-color: green;" text="seat 9" textFill="WHITE" />
+      <Button fx:id="t106" layoutX="221.0" layoutY="158.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 6" textFill="WHITE" />
+      <Button fx:id="t104" layoutX="453.0" layoutY="117.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 4" textFill="WHITE" />
+      <Button fx:id="t116" layoutX="221.0" layoutY="247.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 16" textFill="WHITE" />
+      <Button fx:id="t122" layoutX="301.0" layoutY="297.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 22" textFill="WHITE" />
+      <Button fx:id="t117" layoutX="301.0" layoutY="247.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 17" textFill="WHITE" />
+      <Button fx:id="t118" layoutX="379.0" layoutY="247.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 18" textFill="WHITE" />
+      <Button fx:id="t123" layoutX="382.0" layoutY="297.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 23" textFill="WHITE" />
+      <Button fx:id="t128" layoutX="382.0" layoutY="340.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 28" textFill="WHITE" />
+      <Button fx:id="t127" layoutX="301.0" layoutY="340.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 27" textFill="WHITE" />
+      <Button fx:id="t132" layoutX="301.0" layoutY="382.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 32" textFill="WHITE" />
+      <Button fx:id="t133" layoutX="382.0" layoutY="382.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 33" textFill="WHITE" />
+      <Button fx:id="t131" layoutX="221.0" layoutY="382.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 31" textFill="WHITE" />
+      <Button fx:id="t126" layoutX="221.0" layoutY="340.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 26" textFill="WHITE" />
+      <Button fx:id="t121" layoutX="221.0" layoutY="297.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 21" textFill="WHITE" />
+      <Button fx:id="t141" layoutX="221.0" layoutY="464.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 41" textFill="WHITE" />
+      <Button fx:id="t1336" layoutX="221.0" layoutY="422.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 36" textFill="WHITE" />
+      <Button fx:id="t137" layoutX="301.0" layoutY="422.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 37" textFill="WHITE" />
+      <Button fx:id="t124" layoutX="453.0" layoutY="297.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 24" textFill="WHITE" />
+      <Button fx:id="t129" layoutX="453.0" layoutY="340.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 29" textFill="WHITE" />
+      <Button fx:id="t134" layoutX="453.0" layoutY="382.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 34" textFill="WHITE" />
+      <Button fx:id="t135" layoutX="535.0" layoutY="382.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 35" textFill="WHITE" />
+      <Button fx:id="t138" layoutX="382.0" layoutY="422.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 38" textFill="WHITE" />
+      <Button fx:id="t130" layoutX="535.0" layoutY="340.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 30" textFill="WHITE" />
+      <Button fx:id="t112" layoutX="301.0" layoutY="199.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 12" textFill="WHITE" />
+      <Button fx:id="t113" layoutX="379.0" layoutY="199.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 13" textFill="WHITE" />
+      <Button fx:id="t119" layoutX="453.0" layoutY="247.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 19" textFill="WHITE" />
+      <Button fx:id="t125" layoutX="535.0" layoutY="297.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 25" textFill="WHITE" />
+      <Button fx:id="t139" layoutX="453.0" layoutY="422.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 39" textFill="WHITE" />
+      <Button fx:id="t142" layoutX="301.0" layoutY="464.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 42" textFill="WHITE" />
+      <Button fx:id="t144" layoutX="453.0" layoutY="464.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 44" textFill="WHITE" />
+      <Button fx:id="t143" layoutX="382.0" layoutY="464.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 43" textFill="WHITE" />
+      <Button fx:id="t115" layoutX="535.0" layoutY="199.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 15" textFill="WHITE" />
+      <Button fx:id="t114" layoutX="453.0" layoutY="199.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 14" textFill="WHITE" />
+      <Button fx:id="t108" layoutX="379.0" layoutY="158.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 8" textFill="WHITE" />
+      <Button fx:id="t107" layoutX="301.0" layoutY="157.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 7" textFill="WHITE" />
+      <Button fx:id="t103" layoutX="382.0" layoutY="117.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 3" textFill="WHITE" />
+      <Button fx:id="t101" layoutX="221.0" layoutY="117.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 1" textFill="WHITE" />
+      <Button fx:id="t105" layoutX="538.0" layoutY="117.0" mnemonicParsing="false" onAction="#show_alert" style="-fx-background-color: green;" text="seat 5" textFill="WHITE" />
+      <Button fx:id="cancel" layoutX="678.0" layoutY="405.0" mnemonicParsing="false" onAction="#cancel_alert" style="-fx-border-color: red;" text="cancel reservation ">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="reset" layoutX="678.0" layoutY="459.0" mnemonicParsing="false" onAction="#enableAllButtons3" prefHeight="35.0" prefWidth="154.0" style="-fx-border-color: red;" text="reset" />
+      <Button fx:id="count" layoutX="733.0" layoutY="48.0" mnemonicParsing="false" onAction="#countDisabledButtons3" prefHeight="25.0" prefWidth="102.0" style="-fx-border-color: green;" text="count" />
+   </children>
+</AnchorPane>
