@@ -9,3 +9,10 @@ after selecting one of the films the scene is displayed
 
 select one of the seats and a confirmation window will pop up and after clicking ok the seat will be reserved 
 ![image](https://github.com/Zeinboulo/Cinema-system/assets/134293067/a920f6f4-755d-4d98-8aad-5b4db6260d7f)
+
+a counter that calculate the total seats that are selected 
+![image](https://github.com/Zeinboulo/Cinema-system/assets/134293067/d65af518-a415-4a01-be11-ca197e0fbc57)
+
+here you can cancel reservation by entering seat id that only the cinema receptionist will know
+![image](https://github.com/Zeinboulo/Cinema-system/assets/134293067/04e1b373-f1c4-4077-b396-4f25e30ccc06)
+
