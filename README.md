@@ -7,3 +7,5 @@ here is the main menu where you choose which film you want to select
 after selecting one of the films the scene is displayed
 ![image](https://github.com/Zeinboulo/Cinema-system/assets/134293067/dbf75d17-5dc1-4af1-bbfa-fd741ceab931)
 
+select one of the seats and a confirmation window will pop up and after clicking ok the seat will be reserved 
+![image](https://github.com/Zeinboulo/Cinema-system/assets/134293067/a920f6f4-755d-4d98-8aad-5b4db6260d7f)
